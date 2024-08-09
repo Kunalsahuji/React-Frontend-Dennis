@@ -1,9 +1,10 @@
 import React from 'react'
+import TextContext from './TextContext'
 
 const Page2 = () => {
   return (
-    <div className='h-screen bg-blue-400'>
-      
+    <div className='min-h-screen py-[30vh] px-[10vw]'>
+      <TextContext />
     </div>
   )
 }

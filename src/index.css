@@ -7,10 +7,15 @@
     src: url(./assets/NeueMontreal-Regular.otf);
 }
 
-*{
+* {
     font-family: new;
 }
 
-body{
+body {
     overflow-x: hidden;
+}
+
+#imageContainer {
+    transition: transform linear 0.1s;
+    transform: translate(-50%, -50%) scale(0);
 }
